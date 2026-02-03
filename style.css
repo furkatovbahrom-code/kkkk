@@ -1,0 +1,114 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: system-ui, Arial, sans-serif;
+}
+
+body{
+  min-height:100vh;
+  color:#fff;
+  background:
+    url("bg.jpg") center/cover no-repeat fixed;
+}
+
+/* QORA SOYA – TEXT O‘QILISHI UCHUN */
+.overlay{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.65);
+  z-index:-1;
+}
+
+/* HEADER */
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:14px 16px;
+  background:rgba(0,0,0,0.6);
+  backdrop-filter: blur(6px);
+}
+
+.logo{
+  font-size:22px;
+  font-weight:800;
+  color:#2cff9a;
+}
+
+.langs button{
+  background:transparent;
+  border:1px solid #2cff9a;
+  color:#2cff9a;
+  padding:6px 10px;
+  margin-left:6px;
+  border-radius:8px;
+}
+
+/* HERO */
+.hero{
+  padding:50px 16px 30px;
+}
+
+.hero h1{
+  font-size:30px;
+  line-height:1.2;
+  margin-bottom:12px;
+}
+
+.hero p{
+  color:#d0d0d0;
+  font-size:15px;
+}
+
+/* BUTTONS */
+.actions{
+  margin-top:24px;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.btn{
+  padding:16px;
+  text-align:center;
+  font-weight:700;
+  border-radius:14px;
+  text-decoration:none;
+}
+
+.call{ background:#2cff9a; color:#000; }
+.wa{ background:#25D366; color:#000; }
+.ig{ background:#c13584; color:#fff; }
+
+/* FEATURES */
+.features{
+  padding:30px 16px;
+  display:grid;
+  gap:14px;
+}
+
+.feature{
+  background:rgba(15,20,30,0.75);
+  backdrop-filter: blur(6px);
+  border-radius:16px;
+  padding:18px;
+}
+
+/* BUSINESS */
+.business{
+  padding:30px 16px;
+  background:rgba(0,0,0,0.6);
+}
+
+.business h2{
+  margin-bottom:10px;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:18px;
+  font-size:13px;
+  color:#aaa;
+}
